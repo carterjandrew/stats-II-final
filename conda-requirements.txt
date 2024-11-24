@@ -1,0 +1,6 @@
+python
+ipython
+jupyter
+pandas
+numpy
+transformers
