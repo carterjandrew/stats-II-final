@@ -11,9 +11,9 @@ let
       set -e
       eval "$(micromamba shell hook --shell=posix)"
       export MAMBA_ROOT_PREFIX=${builtins.getEnv "PWD"}/.mamba
-      micromamba create -q -n stats-env
+      micromamba create -y -q -n stats-env
       micromamba activate stats-env
-      micromamba install --yes -f conda-requirements.txt -c conda-forge
+      micromamba install pytorch --yes -f requirements.txt -c pytorch -c conda-forge
       set +e
     '';
   };

@@ -1,0 +1,11 @@
+python
+matplotlib
+ipython
+jupyter
+pandas
+numpy
+transformers
+pytorch
+torchvision
+torchaudio
+cpuonly
