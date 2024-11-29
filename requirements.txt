@@ -9,3 +9,4 @@ pytorch
 torchvision
 torchaudio
 cpuonly
+scipy
