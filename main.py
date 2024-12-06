@@ -35,7 +35,7 @@ model_names = [
     "Qwen/Qwen2.5-3B",
     "Qwen/Qwen2.5-7B",
     "Qwen/Qwen1.5-14B",
-    "Qwen/Qwen2.5-32B"
+    #"Qwen/Qwen2.5-32B"
 ]
 
 
