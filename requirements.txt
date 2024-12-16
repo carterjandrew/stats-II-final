@@ -10,3 +10,4 @@ torchvision
 torchaudio
 cpuonly
 scipy
+scikit-bio
